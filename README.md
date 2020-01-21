@@ -1,2 +1,4 @@
 # job4j
-First steps in GitHub
+First steps in GitHub.
+
+Я начал курс job4j в январе 2020 года. Планирую закончить курс июле 2020 года.
