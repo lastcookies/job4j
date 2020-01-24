@@ -25,7 +25,7 @@ public class SqMaxTest {
 
     @Test
     public void max3() {
-        int result = SqMax.max(3, 2, 4, 1);
-        assertThat(result, is(4));
+        int result = SqMax.max(3, 2, 5, 1);
+        assertThat(result, is(5));
     }
 }
