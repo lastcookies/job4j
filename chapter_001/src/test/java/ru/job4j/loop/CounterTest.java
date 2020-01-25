@@ -27,4 +27,11 @@ public class CounterTest {
         assertThat (rsl, is(expected));
     }
 
+    @Test
+    public void whenNoSum() {
+        int rsl = Counter.sumByEven(10, 20);
+        int expected = 30;
+        assertThat (rsl, is(expected));
+    }
+
 }
