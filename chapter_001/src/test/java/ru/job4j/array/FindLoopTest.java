@@ -41,7 +41,7 @@ public class FindLoopTest {
     @Test
     public void whenFindNull() {
         int[] input = new int[] {7, 10, 3, 4, 1};
-        int value = 1;
+        int value = 2;
         int start = 2;
         int finish = 4;
         int result = FindLoop.indexOf(input, value, start, finish);
