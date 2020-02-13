@@ -1,7 +1,10 @@
 package ru.job4j.array;
 
 /**
- * Моно строка в матрице.
+ * 6.7.1. Моно строка в матрице.
+ * 6.7.2. Моно столбец в матрице.
+ * 6.7.3. Диагональ в матрице.
+ * 6.7.4. Выйгрышная комбинация в собокан.
  *
  * @author Yaroslav Starostin
  * @version 1.0
@@ -54,5 +57,21 @@ public class MatrixCheck {
             rsl[index] = board[index][index];
         }
         return rsl;
+    }
+
+    /**
+     * isWin - проверяет наличие строк или столбцов, заполненных 'X'.
+     * @param board - размер матрицы
+     * @return результат проверки
+     */
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int index = 0; index < board.length; index++) {
+            if (board[index][index] == 'X' && monoHorizontal(board, index) || monoVertical(board, index)) {
+                result = true;
+                break;
+            }
+        }
+        return result;
     }
 }
