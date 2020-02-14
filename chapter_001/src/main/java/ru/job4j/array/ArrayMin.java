@@ -15,7 +15,7 @@ public class ArrayMin {
      * @param array
      * @return
      */
-    public static int findMin(int [] array) {
+    public static int findMin(int[] array) {
         int min = array[0];
         for (int index = 0; index < array.length; index++) {
             if (min > array[index]) {

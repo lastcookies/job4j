@@ -2,7 +2,7 @@ package ru.job4j.loop;
 
 public class Mortgage {
 
-    public int year (int amount, int salary, double percent) {
+    public int year(int amount, int salary, double percent) {
         // amount - сумма выданная по кредиту
         // salary - годовой доход
         // percent - процентная ставка по кредиту

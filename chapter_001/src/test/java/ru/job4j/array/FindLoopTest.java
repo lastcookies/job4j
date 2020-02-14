@@ -20,7 +20,7 @@ public class FindLoopTest {
     @Test
     public void whenArrayHas3ThenMin1() {
         FindLoop find = new FindLoop();
-        int [] input = new int[] {2, 4, 7, 11};
+        int[] input = new int[] {2, 4, 7, 11};
         int value = 3;
         int result = find.indexOf(input, value);
         int expect = -1;

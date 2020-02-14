@@ -43,7 +43,7 @@ public class Calculator {
      * @param first
      * @param second
      */
-    public static void subtract(double first, double second){
+    public static void subtract(double first, double second) {
         double result = first - second;
         System.out.println(first + "-" + second + "=" + result);
     }

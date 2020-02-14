@@ -1,7 +1,7 @@
 package ru.job4j.loop;
 
 public class SeqNumber {
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         calc(6);
         calc(5);
     }
@@ -13,7 +13,7 @@ public class SeqNumber {
             if (hold == n) {
                 System.out.println("Success");
                 break;
-            } else if ( hold > n) {
+            } else if (hold > n) {
                 System.out.println("Not possible");
                 break;
             }

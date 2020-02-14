@@ -8,7 +8,7 @@ package ru.job4j.array;
  * @since 6.02.2020
  */
 
-public class endsWith {
+public class EndsWith {
     /**
      * endWith - проверяет условие, при котором слово заначивается на правильную последовательность букв
      * @param word
