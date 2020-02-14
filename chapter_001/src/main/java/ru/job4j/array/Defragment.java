@@ -1,6 +1,19 @@
 package ru.job4j.array;
 
+/**
+ * Дифрагментация массива.
+ *
+ * @author Yaroslav Starostin
+ * @version 1.0
+ * @since 14.02.2020
+ */
+
 public class Defragment {
+    /**
+     * compress - метод, который дифрагментирует массив
+     * @param array - массив, который дифрагментируется
+     * @return - отдефрагментированный массив
+     */
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
@@ -19,6 +32,9 @@ public class Defragment {
     }
 
     public static void main(String[] args) {
+        /**
+         * main - ручное тестирование метода compress
+         */
         String[] input = {"I", null, "wanna", null, "be" , null, "compressed"};
         String[] compressed = compress(input);
         System.out.println();
