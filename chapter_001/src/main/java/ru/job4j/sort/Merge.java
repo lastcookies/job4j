@@ -2,8 +2,21 @@ package ru.job4j.sort;
 
 import java.util.Arrays;
 
-public class Merge {
+/**
+ * Объединить два массива.
+ *
+ * @author Yaroslav Starostin
+ * @version 1.0
+ * @since 18.02.2020
+ */
 
+public class Merge {
+    /**
+     * merge - объединяет два массива в один, сортируя получившийся массив по возрастанию.
+     * @param left - первый массив
+     * @param right - второй массив
+     * @return - объединенный и отсортированный массив
+     */
     public int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];
         int i = 0;
@@ -22,6 +35,10 @@ public class Merge {
         return rsl;
     }
 
+    /**
+     * main - проверяет метод merge
+     * @param args
+     */
     public static void main(String[] args) {
         Merge process = new Merge();
         int[] rsl = process.merge(
