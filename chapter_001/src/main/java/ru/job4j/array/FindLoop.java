@@ -9,6 +9,7 @@ package ru.job4j.array;
  */
 
 public class FindLoop {
+
     /**
      * indexOf - проверяет, есть ли число в массиве
      * @param data

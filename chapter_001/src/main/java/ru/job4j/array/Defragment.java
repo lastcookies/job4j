@@ -9,6 +9,7 @@ package ru.job4j.array;
  */
 
 public class Defragment {
+
     /**
      * compress - метод, который дифрагментирует массив
      * @param array - массив, который дифрагментируется
@@ -23,7 +24,6 @@ public class Defragment {
                     array[point] = array[index];
                     array[index] = temp;
                     point++;
-
                 }
             }
             System.out.print(array[index] + " ");
@@ -31,10 +31,10 @@ public class Defragment {
         return array;
     }
 
+    /**
+     * main - ручное тестирование метода compress
+     */
     public static void main(String[] args) {
-        /**
-         * main - ручное тестирование метода compress
-         */
         String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
         String[] compressed = compress(input);
         System.out.println();

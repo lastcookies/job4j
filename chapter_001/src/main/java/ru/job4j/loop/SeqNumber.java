@@ -1,6 +1,7 @@
 package ru.job4j.loop;
 
 public class SeqNumber {
+
     public static void main(String[] args) {
         calc(6);
         calc(5);

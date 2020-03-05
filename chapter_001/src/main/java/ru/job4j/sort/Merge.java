@@ -11,6 +11,7 @@ import java.util.Arrays;
  */
 
 public class Merge {
+
     /**
      * merge - объединяет два массива в один, сортируя получившийся массив по возрастанию.
      * @param left - первый массив

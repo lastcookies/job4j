@@ -2,10 +2,14 @@ package ru.job4j.loop;
 
 public class Mortgage {
 
+    /**
+     * расчет, сколько лет будет выплачиваться кредит на определенную с определенной ставкой, годовым доходом
+     * @param amount сумма выданная по кредиту
+     * @param salary годовой доход
+     * @param percent процентная тавка
+     * @return сколько лет платить кредит
+     */
     public int year(int amount, int salary, double percent) {
-        // amount - сумма выданная по кредиту
-        // salary - годовой доход
-        // percent - процентная ставка по кредиту
         int year = 0;
         double x = amount;
         while (x > 0) {

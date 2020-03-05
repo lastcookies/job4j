@@ -9,6 +9,7 @@ package ru.job4j.array;
  */
 
 public class Check {
+
     /**
      * mono - условие, в котором проверяется, однородный массив, или нет
      * @param data

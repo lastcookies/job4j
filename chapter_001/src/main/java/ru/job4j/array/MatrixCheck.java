@@ -12,6 +12,7 @@ package ru.job4j.array;
  */
 
 public class MatrixCheck {
+
     /**
      * monoHorizontal - проверяет заполнение строки массива символом 'X'.
      * @param board - размер матрицы

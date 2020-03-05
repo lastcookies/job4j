@@ -19,6 +19,7 @@ public class Calculator {
         double result = first + second;
         System.out.println(first + "+" + second + "=" + result);
     }
+
     /**
      * Division
      * @param first
@@ -28,6 +29,7 @@ public class Calculator {
         double result = first / second;
         System.out.println(first + "/" + second + "=" + result);
     }
+
     /**
      * Multiplication
      * @param first

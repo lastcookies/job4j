@@ -9,6 +9,7 @@ package ru.job4j.array;
  */
 
 public class MinDiapason {
+
     /**
      * findMin - находит индекс минимального значения в диапазоне массива
      * @param array

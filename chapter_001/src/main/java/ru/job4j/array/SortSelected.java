@@ -9,6 +9,7 @@ package ru.job4j.array;
  */
 
 public class SortSelected {
+
     /**
      * sort - выполняет сортировку чисел в массиве
      * @param data - сортируемый массив чисел

@@ -36,7 +36,6 @@ public class Slash {
      * main - выводит на консоль проверку выполнения условий метода drow
      * @param args
      */
-
     public static void main(String[] args) {
         System.out.println("Draw by 3");
         draw(3);
