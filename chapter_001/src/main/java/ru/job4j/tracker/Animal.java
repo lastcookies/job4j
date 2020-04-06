@@ -1,7 +1,8 @@
 package ru.job4j.tracker;
 
 /**
- * Конструктор по умолчанию
+ * 1.Конструктор по умолчанию
+ * 2.Перегрузка конструктора
  * @author Yaroslav Starosrin (9ruk94@bk.ru)
  * @version 1.0
  * @since 6.04.2020
@@ -11,11 +12,15 @@ public class Animal {
 
     public Animal() {
         super();
-        System.out.println("Animal ");
+    }
+
+    public Animal(String name) {
+        super();
+        System.out.print("Animal ");
     }
 
     public static void main(String[] args) {
-        Predator predator = new Predator();
-        Tiger tiger = new Tiger();
+        Predator predator = new Predator("Predator");
+        Tiger tiger = new Tiger("Tiger");
     }
 }
